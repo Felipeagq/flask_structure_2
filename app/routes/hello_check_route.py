@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from sqlalchemy import BLANK_SCHEMA
+
 
 hello_check_bp = Blueprint("hello_check_bp",__name__)
 
